@@ -16,3 +16,10 @@ export function somaDeUmACem() {
     console.log(`Soma dos números de 1 a 100 é: ${soma}`);
    
 }
+
+export function imprimeDeZeroAVinte() {
+    console.log("Imprimindo de 0 a 20 com for:");
+    for (let i = 0; i <= 20; i++) {
+        console.log(i);    
+    }
+}

@@ -1,6 +1,8 @@
-import { imprimeUmADez, somaDeUmACem } from "./loops";
+import { imprimeDeZeroAVinte, imprimeUmADez, somaDeUmACem } from "./loops";
 
 imprimeUmADez();
 
 somaDeUmACem();
+
+imprimeDeZeroAVinte();
 
