@@ -1,1 +1,6 @@
-console.log("teste");
+import { imprimeUmADez, somaDeUmACem } from "./loops";
+
+imprimeUmADez();
+
+somaDeUmACem();
+
