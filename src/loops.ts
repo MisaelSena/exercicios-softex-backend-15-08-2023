@@ -33,18 +33,25 @@ export function produtoDeUmACinco() {
     } while (i<=5);
     console.log(`O produto dos números de 1 a 5 é: ${produto}`);
 }
-
+//0,1, 1, 2, 3, 5, 8, 13, 21, 34, 55
 export function fibonacciAteDecimoTermo() {
-    let i = 1;
-    let soma = 0;
-
-    while (i<=10) {
-        if (i<=2) {
-            console.log(1);
-        } else {
-            console.log("Fibonacci");
+        let i = 1;
+        let fn_1 = 1;
+        let fn_2 = 0;
+        let fn;
+        console.log("Sequência de Fibonacci até o 10º termo:")
+        while (i <=10) {
+            if(i<2){
+                fn = 1;
+                console.log(fn);
+            }else{
+                fn = fn_1+fn_2;//Fŕomula da Sequência Fn = fn-1 + Fn-2
+                console.log(fn);
+                fn_2 = fn_1;
+                fn_1 = fn;                
+            }
+            i++;
         }
-        i++;
+        
     }
     
-}
