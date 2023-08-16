@@ -57,7 +57,7 @@ export function fibonacciAteDecimoTermo() {
 
 export function multiplosDeTres() {
     
-    for (let i = 0; i < 30; i++) {
+    for (let i = 0; i <= 30; i++) {
         let modulo = i%3;
 
         if (modulo === 0) {
