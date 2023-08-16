@@ -33,7 +33,7 @@ export function produtoDeUmACinco() {
     } while (i<=5);
     console.log(`O produto dos números de 1 a 5 é: ${produto}`);
 }
-//0,1, 1, 2, 3, 5, 8, 13, 21, 34, 55
+
 export function fibonacciAteDecimoTermo() {
         let i = 1;
         let fn_1 = 1;
@@ -54,4 +54,16 @@ export function fibonacciAteDecimoTermo() {
         }
         
     }
+
+export function multiplosDeTres() {
+    
+    for (let i = 0; i < 30; i++) {
+        let modulo = i%3;
+
+        if (modulo === 0) {
+            console.log(i);
+        }
+        
+    }
+}
     

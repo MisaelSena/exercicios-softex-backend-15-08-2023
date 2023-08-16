@@ -1,5 +1,6 @@
-import { fibonacciAteDecimoTermo, imprimeDeZeroAVinte, imprimeUmADez, produtoDeUmACinco, somaDeUmACem } from "./loops";
+import { fibonacciAteDecimoTermo, imprimeDeZeroAVinte, imprimeUmADez, multiplosDeTres, produtoDeUmACinco, somaDeUmACem } from "./loops";
 
+//Laços de Repetição (Loops):
 imprimeUmADez();
 
 somaDeUmACem();
@@ -9,4 +10,6 @@ imprimeDeZeroAVinte();
 produtoDeUmACinco();
 
 fibonacciAteDecimoTermo();
+
+multiplosDeTres();
 
