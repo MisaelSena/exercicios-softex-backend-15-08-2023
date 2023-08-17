@@ -18,9 +18,22 @@ export function converteStringEmMaiuscula(palavra:string) {
 }
 
 //Remova os espaços em branco de uma string.
-export function removeEspacos() {
-    let palavra = "Misael M A Sena";
+export function removeEspacos(palavra: string) {
+    
     let palavraSemEspaco = palavra.split(' ').join('');
     console.log(`String com Espaços: ${palavra}`);       
     console.log(`String sem Espaços: ${palavraSemEspaco}`);
+}
+
+//Conte quantas ocorrências de uma determinada letra existem em uma string.
+export function contaLetraNaString(palavra: string,letra: string) {
+    let count = 0;
+    palavra = palavra.toLocaleLowerCase();
+    letra = letra.toLocaleLowerCase();
+    for (let i = 0; i < palavra.length; i++) {
+        if (palavra[i]==letra) {
+            count++;
+        }        
+    }
+    console.log(`A letra "${letra.toLocaleUpperCase()}" aparece ${count} vezes na String "${palavra.toLocaleUpperCase()}"`);
 }
