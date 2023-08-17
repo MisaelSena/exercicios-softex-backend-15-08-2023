@@ -35,6 +35,6 @@ celsiusParaFahrenheit(20);
 
 mediaArray(2,3,8);
 
-removeDuplicadosDoArray();//FALTA RESOLVER
+removeDuplicadosDoArray();//FALTA CONCLUIR
 
 inverteString("Misael");
