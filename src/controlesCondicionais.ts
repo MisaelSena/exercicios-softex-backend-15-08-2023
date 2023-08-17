@@ -32,6 +32,31 @@ export function verificaAnoBissexto(ano:number) {
     }
 }
 
+export function calculadora(operacao: string, numero1: number, numero2: number) {
+    let resultado;
+    switch (operacao) {
+        case "+":
+            resultado = numero1 + numero2;
+            console.log(`O resultado da Soma entre os números ${numero1} e ${numero2} é: ${resultado}`);
+            break;
+        case "-":
+            resultado = numero1 - numero2;
+            console.log(`O resultado da Subtração entre os números ${numero1} e ${numero2} é: ${resultado}`);
+            break;
+        case "*":
+            resultado = numero1 * numero2;
+            console.log(`O resultado da Multiplicação entre os números ${numero1} e ${numero2} é: ${resultado}`);
+            break;
+        case "/":
+            resultado = numero1 / numero2;
+            console.log(`O resultado da Soma Divisão os números ${numero1} e ${numero2} é: ${resultado}`);
+            break;
+        default:
+            console.log("Operação informada incorreta!");            
+            break;
+    }
+}
+
 export function verificaPalindromo(palavra: string) {
     palavra = palavra.toUpperCase();
     let palavraIvertida = palavra.split('').reverse().join('');

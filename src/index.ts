@@ -1,4 +1,4 @@
-import { verficaImparOuPar, verificaAnoBissexto, verificaPalindromo, verificaPositivoENegativo } from "./controlesCondicionais";
+import { calculadora, verficaImparOuPar, verificaAnoBissexto, verificaPalindromo, verificaPositivoENegativo } from "./controlesCondicionais";
 import { fibonacciAteDecimoTermo, imprimeDeZeroAVinte, imprimeUmADez, multiplosDeTres, produtoDeUmACinco, somaDeUmACem } from "./loops";
 
 //Laços de Repetição (Loops):
@@ -20,5 +20,7 @@ verificaPositivoENegativo(10);
 verficaImparOuPar(5);
 
 verificaAnoBissexto(1824);
+
+calculadora("*",8,10);
 
 verificaPalindromo("Ana");
