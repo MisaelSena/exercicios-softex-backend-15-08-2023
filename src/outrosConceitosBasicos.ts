@@ -13,3 +13,11 @@ export function fatorial(numero: number) {
         console.log(fatorial);
     }
 }
+
+export function maiorValor(numero1: number, numero2: number, numero3: number) {
+    let numeros = [];
+    numeros.push(numero1,numero2,numero3);
+    let maiorNumero = Math.max(...numeros);
+
+    console.log(`O maior número entre (${numero1}, ${numero2}, ${numero3}) é o ${maiorNumero}`);
+}

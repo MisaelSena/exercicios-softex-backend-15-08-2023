@@ -1,6 +1,6 @@
 import { calculadora, verficaImparOuPar, verificaAnoBissexto, verificaPalindromo, verificaPositivoENegativo } from "./controlesCondicionais";
 import { fibonacciAteDecimoTermo, imprimeDeZeroAVinte, imprimeUmADez, multiplosDeTres, produtoDeUmACinco, somaDeUmACem } from "./loops";
-import { fatorial } from "./outrosConceitosBasicos";
+import { fatorial, maiorValor } from "./outrosConceitosBasicos";
 
 //Laços de Repetição (Loops):
 imprimeUmADez();
@@ -28,3 +28,5 @@ verificaPalindromo("Ana");
 
 //Outros Conceitos Básicos:
 fatorial(5);
+
+maiorValor(20,3,145);
