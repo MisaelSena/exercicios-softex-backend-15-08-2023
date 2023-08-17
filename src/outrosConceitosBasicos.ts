@@ -46,3 +46,14 @@ export function mediaArray(numero1: number, numero2: number, numero3: number) {
     `A média entre (${numeros[0]}, ${numeros[1]}, ${numeros[2]}) é o ${media}`
   );
 }
+
+//Crie uma função que remova elementos duplicados de um array. FALTA
+
+export function removeDuplicadosDoArray() {
+    
+}
+
+export function inverteString(palavra: string) {
+    let palavraIvertida = palavra.split('').reverse().join('');
+    console.log(`Plavra: ${palavra} - Palavra Invertida: ${palavraIvertida}`);
+}

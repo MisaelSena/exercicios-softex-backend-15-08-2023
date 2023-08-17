@@ -1,6 +1,6 @@
 import { calculadora, verficaImparOuPar, verificaAnoBissexto, verificaPalindromo, verificaPositivoENegativo } from "./controlesCondicionais";
 import { fibonacciAteDecimoTermo, imprimeDeZeroAVinte, imprimeUmADez, multiplosDeTres, produtoDeUmACinco, somaDeUmACem } from "./loops";
-import { celsiusParaFahrenheit, fatorial, maiorValor, mediaArray } from "./outrosConceitosBasicos";
+import { celsiusParaFahrenheit, fatorial, inverteString, maiorValor, mediaArray, removeDuplicadosDoArray } from "./outrosConceitosBasicos";
 
 //Laços de Repetição (Loops):
 imprimeUmADez();
@@ -34,3 +34,7 @@ maiorValor(20,3,145);
 celsiusParaFahrenheit(20);
 
 mediaArray(2,3,8);
+
+removeDuplicadosDoArray();//FALTA RESOLVER
+
+inverteString("Misael");
