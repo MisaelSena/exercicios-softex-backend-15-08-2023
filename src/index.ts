@@ -1,4 +1,4 @@
-import { imprimeUmACinquentaSoftex } from "./combinandoLacosEestruturas";
+import { imprimeTabelaMultiplicacao, imprimeUmACinquentaSoftex } from "./combinandoLacosEestruturas";
 import { calculadora, verficaImparOuPar, verificaAnoBissexto, verificaPalindromo, verificaPositivoENegativo } from "./controlesCondicionais";
 import { fibonacciAteDecimoTermo, imprimeDeZeroAVinte, imprimeUmADez, multiplosDeTres, produtoDeUmACinco, somaDeUmACem } from "./loops";
 import { celsiusParaFahrenheit, fatorial, inverteString, maiorValor, mediaArray, removeDuplicadosDoArray } from "./outrosConceitosBasicos";
@@ -42,3 +42,5 @@ inverteString("Misael");
 
 //Combinando Laços e Estruturas Condicionais:
 imprimeUmACinquentaSoftex();
+
+imprimeTabelaMultiplicacao();
