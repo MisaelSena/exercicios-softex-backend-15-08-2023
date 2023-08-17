@@ -21,3 +21,10 @@ export function maiorValor(numero1: number, numero2: number, numero3: number) {
 
     console.log(`O maior número entre (${numero1}, ${numero2}, ${numero3}) é o ${maiorNumero}`);
 }
+
+export function celsiusParaFahrenheit(grausCelsius:number) {
+    //F=C×1.8+32
+    let fahrenheit = grausCelsius*1.8 + 32;
+
+    console.log(`${grausCelsius}°C correspondem a ${fahrenheit}°F `);
+}
