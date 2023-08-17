@@ -44,3 +44,24 @@ export function sequenciaDeCollatz(numero: number) {
         }
     }
 }
+//Verifique se um número é primo ou não.
+export function verificaNumeroPrimo(numero:number) {
+
+    let numeroPrimo = true;
+
+    if(numero<2){
+        console.log("O número deve ser maior que 1!");        
+    }else{
+        for(let i = 2; i < numero; i++){
+            if( numero % i === 0){
+                numeroPrimo = false;
+            }
+        }
+        if(numeroPrimo){
+            console.log(`O número ${numero} é primo`);
+        }else{
+            console.log(`O número ${numero} não é primo`);
+        }
+        
+    }
+}
