@@ -1,5 +1,4 @@
-export function verificaPositivoENegativo() {
-    let numero = -1;
+export function verificaPositivoENegativo(numero:number) {    
 
     if (numero > 0) {
         console.log(`O Número ${numero} é positivo!`);
@@ -10,13 +9,25 @@ export function verificaPositivoENegativo() {
     }
 }
 
-export function verficaImparOuPar() {
-    let numero = 3;
+export function verficaImparOuPar(numero:number) {
+    
     let modulo = numero % 2;
 
     if (modulo!==0) {
         console.log(`O Número ${numero} é Ímpar!`);
     } else {
         console.log(`O Número ${numero} é Par!`);
+    }
+}
+
+export function verificaAnoBissexto(ano:number) {
+    let modulo4 = ano % 4;
+    let modulo100 = ano % 100;
+    let modulo400 = ano % 400;
+
+    if (modulo4 === 0 || modulo100 === 0 || modulo400 === 0) {
+        console.log(`O Ano ${ano} é Bissexto!`);
+    } else {
+        console.log(`O Ano ${ano} Não é Bissexto!`);
     }
 }

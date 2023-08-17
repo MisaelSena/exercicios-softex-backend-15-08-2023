@@ -1,4 +1,4 @@
-import { verficaImparOuPar, verificaPositivoENegativo } from "./controlesCondicionais";
+import { verficaImparOuPar, verificaAnoBissexto, verificaPositivoENegativo } from "./controlesCondicionais";
 import { fibonacciAteDecimoTermo, imprimeDeZeroAVinte, imprimeUmADez, multiplosDeTres, produtoDeUmACinco, somaDeUmACem } from "./loops";
 
 //Laços de Repetição (Loops):
@@ -15,6 +15,8 @@ fibonacciAteDecimoTermo();
 multiplosDeTres();
 
 //Estruturas de Controle Condicionais:
-verificaPositivoENegativo();
+verificaPositivoENegativo(10);
 
-verficaImparOuPar();
+verficaImparOuPar(5);
+
+verificaAnoBissexto(1824);
