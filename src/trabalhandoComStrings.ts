@@ -8,5 +8,11 @@ export function contaVogais(palavra:string) {
             contVogais++;
           }      
     }
-    console.log(`A quantidade de Vogais na palavra é: ${contVogais}`);
+    console.log(`A quantidade de Vogais na palavra ${palavra} é: ${contVogais}`);
+}
+//Converta uma string para maiúsculas.
+export function converteStringEmMaiuscula(palavra:string) {
+    
+    palavra = palavra.toLocaleUpperCase();       
+    console.log(`String em maiúscula: ${palavra}`);
 }
