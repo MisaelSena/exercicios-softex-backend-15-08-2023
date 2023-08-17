@@ -14,3 +14,11 @@ export function mairoValorArrayNumeros() {
     "No Array: [" + numeros + "] o maior valor é: " + Math.max(...numeros)
   );
 }
+
+//Crie um array de nomes e ordene-o em ordem alfabética.
+export function arrayOrdAlfabetica() {
+    let nomes = ["Misael","Andreza","Elisson"];
+    console.log("Array Nomes não ordenados: [" + nomes+"]");
+    console.log("Array Nomes em ordem alfabética: [" + nomes.sort()+"]");
+  }
+
