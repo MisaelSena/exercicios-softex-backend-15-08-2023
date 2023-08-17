@@ -2,7 +2,7 @@ import { imprimeTabelaMultiplicacao, imprimeUmACinquentaSoftex, sequenciaDeColla
 import { calculadora, verficaImparOuPar, verificaAnoBissexto, verificaPalindromo, verificaPositivoENegativo } from "./controlesCondicionais";
 import { fibonacciAteDecimoTermo, imprimeDeZeroAVinte, imprimeUmADez, multiplosDeTres, produtoDeUmACinco, somaDeUmACem } from "./loops";
 import { celsiusParaFahrenheit, fatorial, inverteString, maiorValor, mediaArray, removeDuplicadosDoArray } from "./outrosConceitosBasicos";
-import { contaVogais, converteStringEmMaiuscula } from "./trabalhandoComStrings";
+import { contaVogais, converteStringEmMaiuscula, removeEspacos } from "./trabalhandoComStrings";
 
 //Laços de Repetição (Loops):
 imprimeUmADez();
@@ -53,3 +53,5 @@ verificaNumeroPrimo(6);
 contaVogais("Misael");
 
 converteStringEmMaiuscula("Misael");
+
+removeEspacos();

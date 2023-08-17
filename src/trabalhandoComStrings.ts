@@ -16,3 +16,11 @@ export function converteStringEmMaiuscula(palavra:string) {
     palavra = palavra.toLocaleUpperCase();       
     console.log(`String em maiúscula: ${palavra}`);
 }
+
+//Remova os espaços em branco de uma string.
+export function removeEspacos() {
+    let palavra = "Misael M A Sena";
+    let palavraSemEspaco = palavra.split(' ').join('');
+    console.log(`String com Espaços: ${palavra}`);       
+    console.log(`String sem Espaços: ${palavraSemEspaco}`);
+}
