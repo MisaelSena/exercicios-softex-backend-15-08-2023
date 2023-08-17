@@ -9,3 +9,14 @@ export function verificaPositivoENegativo() {
         console.log(`O Número ${numero} é neutro!`);
     }
 }
+
+export function verficaImparOuPar() {
+    let numero = 3;
+    let modulo = numero % 2;
+
+    if (modulo!==0) {
+        console.log(`O Número ${numero} é Ímpar!`);
+    } else {
+        console.log(`O Número ${numero} é Par!`);
+    }
+}
