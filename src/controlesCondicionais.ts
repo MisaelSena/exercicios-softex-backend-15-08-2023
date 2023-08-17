@@ -31,3 +31,14 @@ export function verificaAnoBissexto(ano:number) {
         console.log(`O Ano ${ano} Não é Bissexto!`);
     }
 }
+
+export function verificaPalindromo(palavra: string) {
+    palavra = palavra.toUpperCase();
+    let palavraIvertida = palavra.split('').reverse().join('');
+
+    if (palavra === palavraIvertida) {
+        console.log(`A Palavra "${palavra}" é um palíndromo!`);
+    } else {
+        console.log(`A Palavra "${palavra}" não é um palíndromo!`);
+    }
+} 
