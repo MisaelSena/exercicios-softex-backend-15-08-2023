@@ -38,7 +38,7 @@ celsiusParaFahrenheit(20);
 
 mediaArray(2,3,8);
 
-removeDuplicadosDoArray();//FALTA CONCLUIR
+removeDuplicadosDoArray();
 
 inverteString("Misael");
 
@@ -69,3 +69,4 @@ arrayOrdAlfabetica();
 somaDoisArrays();
 
 valorMaisFrequenteNoArray();
+//EXERCÍCIOS CONCLUÍDOS
