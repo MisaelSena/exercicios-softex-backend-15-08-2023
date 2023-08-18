@@ -36,4 +36,31 @@ export function somaDoisArrays() {
     console.log(`Array 2:[${lista2}]`);
     console.log(`Elementos de mesma posição dos Arrays 1 e 2 somados:[${somaElementosArray}]`);
 }
+//Crie um programa que encontre o valor mais frequente em um array de números.
+export function valorMaisFrequenteNoArray() {
+    
+        let lista = [1,2,3,4,3,4,3,5,3,7,8,2];
+
+        let itemMaisAparece;
+        let maiorQuantidade = -1;
+
+        for ( let i = 0 ; i < lista.length ; i++ ) {
+        let cont = 1;
+        for ( let j = i+1 ; j < lista.length ; j++ ){
+            if ( lista[i] == lista[j] ){
+                cont++;
+            }
+            if ( cont > maiorQuantidade ) {
+                itemMaisAparece = lista[i];
+                maiorQuantidade = cont;
+            }            
+        
+        
+        }
+        }
+
+    console.log("Maior Ocorrência: ",itemMaisAparece,"Número de Vezes: ",maiorQuantidade);
+    
+
+}
 
