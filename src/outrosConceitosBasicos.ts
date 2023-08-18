@@ -50,6 +50,12 @@ export function mediaArray(numero1: number, numero2: number, numero3: number) {
 //Crie uma função que remova elementos duplicados de um array. FALTA
 
 export function removeDuplicadosDoArray() {
+    let lista = [1,2,3,5,6,8,9,2,4,5,6];
+    
+    let listaSemDuplicaddas = lista.filter((j,i)=>{return lista.indexOf(j)===i;});
+
+    console.log("O array com os duplicados é:", lista);
+    console.log("O array sem os duplicados é:", listaSemDuplicaddas);
     
 }
 
